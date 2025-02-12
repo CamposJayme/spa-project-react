@@ -1,1 +1,23 @@
+.home_banner {
+    background-color: #F9DB79;
+    height: 90vh;
+    background-image: url(../../public/banner-home.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
 
+.home_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_container h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.741);
+}
