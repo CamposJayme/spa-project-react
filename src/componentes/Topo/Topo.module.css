@@ -1,0 +1,28 @@
+/* HEADER - TOPO CONTENTS */
+
+.header {
+    background-color: #F9DB79;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header_image img {
+    width: 28%;
+    height: 28%;
+}
+
+.header_nav {
+    display: flex;
+    gap: 36px;
+}
+
+.header_nav li a {
+    font-weight: bold;
+    color: black;
+}
