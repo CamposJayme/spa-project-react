@@ -1,23 +1,60 @@
+/* HOME BANNER */
 .home_banner {
+    width: 100%;
+    min-height: 100vh;
     background-color: #F9DB79;
-    height: 90vh;
     background-image: url(../../public/banner-home.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 500px;
     background-position: center;
     position: relative;
-}
-
-.home_container {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.home_container h1 {
-    font-size: 90px;
+.texto_banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.texto_banner h1 {
+    font-size: 100px;
     text-transform: uppercase;
     color: white;
     text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.741);
+}
+
+/* HOME MAIN CONTENT */
+.home_content {
+    display: flex;
+    width: 100%;
+}
+
+.home_content img, .text_content {
+    width: 50%;
+    height: auto;
+}
+
+.text_content {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_content h2 {
+    font-size: 36px;
+}
+
+.text_content span {
+    font-size: 20px;
+}
+
+.text_content p {
+    font-size: 16px;
 }
