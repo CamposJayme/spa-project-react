@@ -6,7 +6,7 @@ export default function Rodape() {
     return (
         <footer className={styles.footer}>
             <div className={styles.footer_container}>
-                <Image src={logoSite}/>
+                <Image src={logoSite} alt='logo da gelateria'/>
                 <div className={styles.footer_card}>
                     <h3>Endereço</h3>
                     <p>Av. Bernardino de Campos, 98
